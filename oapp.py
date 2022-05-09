@@ -104,7 +104,7 @@ def poiints():
     plt.savefig('map.png',dpi=600)
     return 'map saved\n\n'
 
-
+# OLD OLD OLD OLD OLD <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 @app.route('/column/<feat_string>', methods=['GET'])
 def specific_feature(feat_string: str):
